@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/objectType.xsd">
+    <import><type><name>de.eulenthal.wcf.lawLibrary.message</name><definitionname>com.woltlab.wcf.message</definitionname><enableToc>1</enableToc></type></import>
+</data>

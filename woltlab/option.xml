@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/option.xsd">
+    <import>
+        <categories>
+            <category name="lawLibrary"><showorder>100</showorder></category>
+            <category name="lawLibrary.general"><parent>lawLibrary</parent></category>
+        </categories>
+        <options>
+            <option name="law_library_name">
+                <categoryname>lawLibrary.general</categoryname>
+                <optiontype>text</optiontype>
+                <defaultvalue></defaultvalue>
+                <validationpattern><![CDATA[^.{0,100}$]]></validationpattern>
+            </option>
+        </options>
+    </import>
+</data>

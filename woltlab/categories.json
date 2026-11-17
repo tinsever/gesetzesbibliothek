@@ -1,0 +1,65 @@
+[
+  {
+    "id": "public",
+    "base": 100,
+    "title": "Öffentliches Recht",
+    "description": "Verfassung, Staatsorganisation und öffentliche Verwaltung des Fürstentums Eulenthal.",
+    "icon": "landmark"
+  },
+  {
+    "id": "civil",
+    "base": 200,
+    "title": "Privatrecht",
+    "description": "Die rechtlichen Beziehungen zwischen Bürgerinnen und Bürgern.",
+    "icon": "handshake"
+  },
+  {
+    "id": "criminal",
+    "base": 300,
+    "title": "Strafrecht",
+    "description": "Strafbestimmungen, Strafverfahren und Strafvollzug.",
+    "icon": "scale"
+  },
+  {
+    "id": "education",
+    "base": 400,
+    "title": "Bildung & Kultur",
+    "description": "Schule, Wissenschaft und kulturelles Leben.",
+    "icon": "graduation"
+  },
+  {
+    "id": "defence",
+    "base": 500,
+    "title": "Landesverteidigung",
+    "description": "Sicherheit und Verteidigung des Fürstentums.",
+    "icon": "shield"
+  },
+  {
+    "id": "finance",
+    "base": 600,
+    "title": "Finanzen & Steuern",
+    "description": "Staatshaushalt, Abgaben und öffentliche Finanzen.",
+    "icon": "coins"
+  },
+  {
+    "id": "infrastructure",
+    "base": 700,
+    "title": "Bau, Energie & Verkehr",
+    "description": "Raumplanung, Infrastruktur und Mobilität.",
+    "icon": "building"
+  },
+  {
+    "id": "health",
+    "base": 800,
+    "title": "Gesundheit & Soziales",
+    "description": "Gesundheitswesen, Arbeit und soziale Sicherheit.",
+    "icon": "heart"
+  },
+  {
+    "id": "economy",
+    "base": 900,
+    "title": "Wirtschaft",
+    "description": "Handel, Gewerbe und wirtschaftliche Ordnung.",
+    "icon": "briefcase"
+  }
+]

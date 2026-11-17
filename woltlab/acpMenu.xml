@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/acpMenu.xsd">
+    <import>
+        <acpmenuitem name="wcf.acp.menu.link.lawLibrary"><parent>wcf.acp.menu.link.content</parent><showorder>50</showorder><permissions>admin.content.lawLibrary.canManage</permissions></acpmenuitem>
+        <acpmenuitem name="wcf.acp.menu.link.lawLibrary.laws"><parent>wcf.acp.menu.link.lawLibrary</parent><controller>wcf\acp\page\LawListPage</controller><showorder>1</showorder><permissions>admin.content.lawLibrary.canManage</permissions></acpmenuitem>
+        <acpmenuitem name="wcf.acp.menu.link.lawLibrary.categories"><parent>wcf.acp.menu.link.lawLibrary</parent><controller>wcf\acp\page\LawCategoryListPage</controller><showorder>2</showorder><permissions>admin.content.lawLibrary.canManage</permissions></acpmenuitem>
+    </import>
+</data>

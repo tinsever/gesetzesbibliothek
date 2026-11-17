@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/page.xsd">
+    <import>
+        <page identifier="de.eulenthal.wcf.lawLibrary.Library">
+            <pageType>system</pageType>
+            <controller>wcf\page\LawLibraryPage</controller>
+            <name language="de">Gesetzesbibliothek</name>
+            <name language="en">Law library</name>
+            <permissions>user.lawLibrary.canView</permissions>
+            <content language="de"><title>Gesetzesbibliothek</title></content>
+            <content language="en"><title>Law library</title></content>
+        </page>
+        <page identifier="de.eulenthal.wcf.lawLibrary.Law">
+            <pageType>system</pageType><controller>wcf\page\LawPage</controller>
+            <name language="de">Gesetz</name><name language="en">Law</name>
+            <permissions>user.lawLibrary.canView</permissions>
+        </page>
+        <page identifier="de.eulenthal.wcf.lawLibrary.Edit">
+            <pageType>system</pageType><controller>wcf\form\LawEditForm</controller>
+            <name language="de">Gesetz bearbeiten</name><name language="en">Edit law</name>
+            <permissions>admin.content.lawLibrary.canManage</permissions>
+        </page>
+    </import>
+</data>

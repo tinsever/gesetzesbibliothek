@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="de">
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.admin.content.lawLibrary"><![CDATA[Gesetzesbibliothek]]></item>
+        <item name="wcf.acp.group.option.admin.content.lawLibrary.canManage"><![CDATA[Kann Rechtsgebiete und Gesetze im ACP verwalten]]></item>
+        <item name="wcf.acp.group.option.category.user.lawLibrary"><![CDATA[Gesetzesbibliothek]]></item>
+        <item name="wcf.acp.group.option.user.lawLibrary.canView"><![CDATA[Kann die Gesetzesbibliothek aufrufen]]></item>
+    </category>
+    <category name="wcf.lawLibrary">
+        <item name="wcf.lawLibrary.formatting"><![CDATA[Listenformatierung]]></item>
+        <item name="wcf.lawLibrary.formatting.back"><![CDATA[Zum Gesetz]]></item>
+        <item name="wcf.lawLibrary.formatting.description"><![CDATA[Ändert ausschließlich die Listenkennzeichnung dieses Gesetzes. Gesetzestext, Änderungsdatum und Historie bleiben unverändert.]]></item>
+        <item name="wcf.lawLibrary.listStyle"><![CDATA[Kennzeichnung der obersten Listenebene]]></item>
+        <item name="wcf.lawLibrary.listStyle.default"><![CDATA[Standard (unverändert)]]></item>
+        <item name="wcf.lawLibrary.listStyle.letters"><![CDATA[Großbuchstaben: A., B., C.]]></item>
+        <item name="wcf.lawLibrary.listStyle.description"><![CDATA[Gilt für die oberste Ebene geordneter Listen im angezeigten Gesetzestext. Jede Liste zählt separat. Unterlisten, Aufzählungspunkte und das Inhaltsverzeichnis bleiben unverändert. Der WoltLab-Texteditor zeigt weiterhin Ziffern; die Buchstaben erscheinen auf der Gesetzesseite.]]></item>
+        <item name="wcf.lawLibrary.listStyle.error"><![CDATA[Bitte wähle eine gültige Listenformatierung.]]></item>
+
+        <item name="wcf.lawLibrary.history"><![CDATA[Änderungshistorie]]></item>
+        <item name="wcf.lawLibrary.history.empty"><![CDATA[Noch keine ändernden Gesetze verknüpft.]]></item>
+        <item name="wcf.lawLibrary.updated.description"><![CDATA[Redaktionelles Änderungsdatum. Wird beim Bearbeiten nicht automatisch auf heute gesetzt. Es darf nicht vor dem neuesten Eintrag der Änderungshistorie liegen.]]></item>
+        <item name="wcf.lawLibrary.amendment.law"><![CDATA[Änderndes Gesetz]]></item>
+        <item name="wcf.lawLibrary.amendment.date"><![CDATA[Änderungsdatum]]></item>
+        <item name="wcf.lawLibrary.amendment.none"><![CDATA[Keine zusätzliche Verknüpfung]]></item>
+        <item name="wcf.lawLibrary.amendment.quick.description"><![CDATA[Optional: Fügt dieses Gesetz mit dem oben gewählten Änderungsdatum zur Historie hinzu. Bereits vorhandene Einträge bleiben erhalten. Ältere Änderungen kannst du nach dem Speichern unter „Änderungshistorie“ ergänzen.]]></item>
+        <item name="wcf.lawLibrary.amendment.add"><![CDATA[Änderung hinzufügen]]></item>
+        <item name="wcf.lawLibrary.amendment.edit"><![CDATA[Änderung bearbeiten]]></item>
+        <item name="wcf.lawLibrary.amendment.source.description"><![CDATA[Wähle das bereits in der Bibliothek gespeicherte Gesetz aus, das diese Änderung bewirkt hat.]]></item>
+        <item name="wcf.lawLibrary.amendment.description"><![CDATA[Verknüpfe ein änderndes Gesetz mit seinem Änderungsdatum. Neuere Einträge setzen „zuletzt geändert“ vor; ältere Einträge lassen es unverändert. Nach Korrekturen kannst du „zuletzt geändert“ im Gesetz bei Bedarf zurücksetzen. Der Gesetzestext bleibt unverändert.]]></item>
+        <item name="wcf.lawLibrary.amendment.delete"><![CDATA[Verknüpfung entfernen]]></item>
+        <item name="wcf.lawLibrary.amendment.delete.confirm"><![CDATA[Diese Verknüpfung beim Absenden entfernen]]></item>
+        <item name="wcf.lawLibrary.amendment.delete.description"><![CDATA[Entfernt nur diesen Eintrag aus der Änderungshistorie. Beide Gesetze und das manuelle Datum „zuletzt geändert“ bleiben erhalten.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.updatedBeforeHistory"><![CDATA[Das Datum liegt vor einem Eintrag der Änderungshistorie. Korrigiere zuerst den betreffenden Historieneintrag oder wähle ein neueres Datum.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.invalid"><![CDATA[Bitte prüfe Datum und Gesetzesauswahl. Das ändernde Gesetz muss bereits existieren und ein anderes Gesetz sein.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.duplicate"><![CDATA[Dieses Gesetz ist mit diesem Änderungsdatum bereits verknüpft.]]></item>
+
+        <item name="wcf.lawLibrary.error.date"><![CDATA[Bitte gib ein gültiges Kalenderdatum ein.]]></item>
+        <item name="wcf.lawLibrary.category.add"><![CDATA[Rechtsgebiet hinzufügen]]></item>
+        <item name="wcf.lawLibrary.category.edit"><![CDATA[Rechtsgebiet bearbeiten]]></item>
+        <item name="wcf.lawLibrary.category.details"><![CDATA[Angaben zum Rechtsgebiet]]></item>
+        <item name="wcf.lawLibrary.category.name"><![CDATA[Name]]></item>
+        <item name="wcf.lawLibrary.category.description"><![CDATA[Beschreibung]]></item>
+        <item name="wcf.lawLibrary.category.numberBlock"><![CDATA[Nummernkreis]]></item>
+        <item name="wcf.lawLibrary.category.numberBlock.description"><![CDATA[Gib die Zahl vor „xx“ ein: 1 ergibt 101–199, 12 ergibt 1201–1299. Jeder Nummernkreis darf nur einmal vorkommen. Bei einer Änderung werden die Nummern aller zugehörigen Gesetze automatisch angepasst; Links bleiben erhalten.]]></item>
+        <item name="wcf.lawLibrary.category.range"><![CDATA[Nummernbereich]]></item>
+        <item name="wcf.lawLibrary.category.lawCount"><![CDATA[Gesetze]]></item>
+        <item name="wcf.lawLibrary.category.atEnd"><![CDATA[Am Ende der Gebietssystematik]]></item>
+        <item name="wcf.lawLibrary.category.order.description"><![CDATA[Bestimmt die Reihenfolge in der Gebietssystematik. Die Nummernkreise der anderen Rechtsgebiete bleiben unverändert.]]></item>
+        <item name="wcf.lawLibrary.category.delete"><![CDATA[Rechtsgebiet löschen]]></item>
+        <item name="wcf.lawLibrary.category.delete.confirm"><![CDATA[Dieses Rechtsgebiet beim Absenden löschen]]></item>
+        <item name="wcf.lawLibrary.category.delete.description"><![CDATA[Nur leere Rechtsgebiete können gelöscht werden. Verschiebe zugehörige Gesetze vorher in ein anderes Rechtsgebiet. Mindestens ein Rechtsgebiet muss erhalten bleiben.]]></item>
+        <item name="wcf.lawLibrary.category.error.duplicateBase"><![CDATA[Dieser Nummernkreis ist bereits vergeben. Wähle einen freien Nummernkreis.]]></item>
+        <item name="wcf.lawLibrary.category.error.categoryNotEmpty"><![CDATA[Dieses Rechtsgebiet enthält noch Gesetze. Verschiebe sie zuerst in ein anderes Rechtsgebiet.]]></item>
+        <item name="wcf.lawLibrary.category.error.lastCategory"><![CDATA[Das letzte Rechtsgebiet kann nicht gelöscht werden.]]></item>
+        <item name="wcf.lawLibrary.category.error.categoryLimit"><![CDATA[Es sind höchstens 99 Rechtsgebiete möglich.]]></item>
+        <item name="wcf.lawLibrary.category.error.invalid"><![CDATA[Bitte prüfe die Angaben und die Einfügeposition. Möglicherweise wurde die Gebietssystematik inzwischen geändert.]]></item>
+        <item name="wcf.lawLibrary.manage"><![CDATA[Im ACP verwalten]]></item>
+        <item name="wcf.lawLibrary.showLibrary"><![CDATA[Bibliothek aufrufen]]></item>
+
+        <item name="wcf.lawLibrary.title"><![CDATA[Gesetzesbibliothek]]></item>
+        <item name="wcf.lawLibrary.systematic"><![CDATA[Gebietssystematik]]></item>
+        <item name="wcf.lawLibrary.all"><![CDATA[Alle Gesetze]]></item>
+        <item name="wcf.lawLibrary.recent"><![CDATA[Zuletzt geändert]]></item>
+        <item name="wcf.lawLibrary.bookmarks"><![CDATA[Meine Merkliste]]></item>
+        <item name="wcf.lawLibrary.bookmark.add"><![CDATA[In Merkliste speichern]]></item>
+        <item name="wcf.lawLibrary.bookmark.remove"><![CDATA[Aus Merkliste entfernen]]></item>
+        <item name="wcf.lawLibrary.add"><![CDATA[Gesetz hinzufügen]]></item>
+        <item name="wcf.lawLibrary.edit"><![CDATA[Gesetz bearbeiten]]></item>
+        <item name="wcf.lawLibrary.details"><![CDATA[Angaben zum Gesetz]]></item>
+        <item name="wcf.lawLibrary.lawTitle"><![CDATA[Gesetzestitel]]></item>
+        <item name="wcf.lawLibrary.abbreviation"><![CDATA[Abkürzung]]></item>
+        <item name="wcf.lawLibrary.date"><![CDATA[Inkrafttreten]]></item>
+        <item name="wcf.lawLibrary.updated"><![CDATA[Zuletzt geändert]]></item>
+        <item name="wcf.lawLibrary.category"><![CDATA[Rechtsgebiet]]></item>
+        <item name="wcf.lawLibrary.insertBefore"><![CDATA[Einfügen vor]]></item>
+        <item name="wcf.lawLibrary.atEnd"><![CDATA[Am Ende des Rechtsgebiets]]></item>
+        <item name="wcf.lawLibrary.numbering.description"><![CDATA[Die Nummer ergibt sich automatisch aus Rechtsgebiet und Reihenfolge. Beim Einfügen oder Verschieben werden alle folgenden Nummern angepasst. Links zum Gesetz bleiben bestehen. Jedes Rechtsgebiet fasst höchstens 99 Gesetze.]]></item>
+        <item name="wcf.lawLibrary.number"><![CDATA[Nummer]]></item>
+        <item name="wcf.lawLibrary.text"><![CDATA[Gesetzestext]]></item>
+        <item name="wcf.lawLibrary.status"><![CDATA[Status]]></item>
+        <item name="wcf.lawLibrary.status.all"><![CDATA[Alle Status]]></item>
+        <item name="wcf.lawLibrary.status.active"><![CDATA[In Kraft]]></item>
+        <item name="wcf.lawLibrary.status.announced"><![CDATA[Verkündet]]></item>
+        <item name="wcf.lawLibrary.status.repealed"><![CDATA[Außer Kraft]]></item>
+        <item name="wcf.lawLibrary.search"><![CDATA[Suchen]]></item>
+        <item name="wcf.lawLibrary.search.placeholder"><![CDATA[Titel, Abkürzung, Nummer oder Gesetzestext]]></item>
+        <item name="wcf.lawLibrary.results"><![CDATA[Suchergebnisse]]></item>
+        <item name="wcf.lawLibrary.empty"><![CDATA[Keine passenden Gesetze vorhanden.]]></item>
+        <item name="wcf.lawLibrary.back"><![CDATA[Zur Übersicht]]></item>
+        <item name="wcf.lawLibrary.error.conflict"><![CDATA[Die Sammlung wurde zwischenzeitlich geändert. Dein Text bleibt im Formular erhalten. Kopiere ihn und öffne die Seite erneut, bevor du speicherst.]]></item>
+        <item name="wcf.lawLibrary.error.invalid"><![CDATA[Bitte prüfe die Einfügeposition und das Rechtsgebiet. Pro Rechtsgebiet sind höchstens 99 Gesetze möglich. Die Sammlung darf maximal 12 MB groß sein.]]></item>
+    </category>
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.lawLibrary"><![CDATA[Gesetzesbibliothek]]></item>
+        <item name="wcf.acp.menu.link.lawLibrary.categories"><![CDATA[Gebietssystematik]]></item>
+        <item name="wcf.acp.menu.link.lawLibrary.laws"><![CDATA[Gesetze]]></item>
+    </category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.lawLibrary"><![CDATA[Gesetzesbibliothek]]></item>
+        <item name="wcf.acp.option.category.lawLibrary.general"><![CDATA[Allgemein]]></item>
+        <item name="wcf.acp.option.law_library_name"><![CDATA[Name der Bibliothek]]></item>
+        <item name="wcf.acp.option.law_library_name.description"><![CDATA[Eigener Anzeigename, beispielsweise EulLex (maximal 100 Zeichen). Gilt für die Bibliothek sowie das Haupt- und ACP-Menü. Leer lassen für den bisherigen Namen. Inhalte und Links bleiben unverändert.]]></item>
+    </category>
+</language>

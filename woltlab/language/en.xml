@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/6.0/language.xsd" languagecode="en">
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.admin.content.lawLibrary"><![CDATA[Law library]]></item>
+        <item name="wcf.acp.group.option.admin.content.lawLibrary.canManage"><![CDATA[Can manage areas and laws in the ACP]]></item>
+        <item name="wcf.acp.group.option.category.user.lawLibrary"><![CDATA[Law library]]></item>
+        <item name="wcf.acp.group.option.user.lawLibrary.canView"><![CDATA[Can access the law library]]></item>
+    </category>
+    <category name="wcf.lawLibrary">
+        <item name="wcf.lawLibrary.formatting"><![CDATA[List formatting]]></item>
+        <item name="wcf.lawLibrary.formatting.back"><![CDATA[View law]]></item>
+        <item name="wcf.lawLibrary.formatting.description"><![CDATA[Changes only the list labels of this law. The stored text, amendment date and history are preserved.]]></item>
+        <item name="wcf.lawLibrary.listStyle"><![CDATA[Top-level ordered list labels]]></item>
+        <item name="wcf.lawLibrary.listStyle.default"><![CDATA[Default (unchanged)]]></item>
+        <item name="wcf.lawLibrary.listStyle.letters"><![CDATA[Capital letters: A., B., C.]]></item>
+        <item name="wcf.lawLibrary.listStyle.description"><![CDATA[Applies to top-level ordered lists in the displayed law text. Each list is counted separately. Nested lists, bullet lists and the table of contents are unchanged. The WoltLab text editor still displays numbers; the law page displays letters.]]></item>
+        <item name="wcf.lawLibrary.listStyle.error"><![CDATA[Please select a valid list format.]]></item>
+
+        <item name="wcf.lawLibrary.history"><![CDATA[Amendment history]]></item>
+        <item name="wcf.lawLibrary.history.empty"><![CDATA[No amending laws linked yet.]]></item>
+        <item name="wcf.lawLibrary.updated.description"><![CDATA[Editorial amendment date. Editing does not automatically set it to today. It cannot precede the newest history entry.]]></item>
+        <item name="wcf.lawLibrary.amendment.law"><![CDATA[Amending law]]></item>
+        <item name="wcf.lawLibrary.amendment.date"><![CDATA[Amendment date]]></item>
+        <item name="wcf.lawLibrary.amendment.none"><![CDATA[No additional link]]></item>
+        <item name="wcf.lawLibrary.amendment.quick.description"><![CDATA[Optional: Adds this law to the history with the amendment date above. Existing entries are preserved. Add earlier amendments under “Amendment history” after saving.]]></item>
+        <item name="wcf.lawLibrary.amendment.add"><![CDATA[Add amendment]]></item>
+        <item name="wcf.lawLibrary.amendment.edit"><![CDATA[Edit amendment]]></item>
+        <item name="wcf.lawLibrary.amendment.source.description"><![CDATA[Select the law already stored in the library that made this amendment.]]></item>
+        <item name="wcf.lawLibrary.amendment.description"><![CDATA[Link an amending law and its amendment date. Newer entries advance “last amended”; older entries preserve it. After corrections, adjust “last amended” in the law if needed. The law text remains unchanged.]]></item>
+        <item name="wcf.lawLibrary.amendment.delete"><![CDATA[Remove link]]></item>
+        <item name="wcf.lawLibrary.amendment.delete.confirm"><![CDATA[Remove this link on submission]]></item>
+        <item name="wcf.lawLibrary.amendment.delete.description"><![CDATA[Only removes this history entry. Both laws and the manual “last amended” date are preserved.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.updatedBeforeHistory"><![CDATA[This date precedes an amendment history entry. Correct that entry first or choose a more recent date.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.invalid"><![CDATA[Check the date and selected law. The amending law must exist and be a different law.]]></item>
+        <item name="wcf.lawLibrary.amendment.error.duplicate"><![CDATA[This law is already linked with this amendment date.]]></item>
+
+        <item name="wcf.lawLibrary.error.date"><![CDATA[Please enter a valid calendar date.]]></item>
+        <item name="wcf.lawLibrary.category.add"><![CDATA[Add area of law]]></item>
+        <item name="wcf.lawLibrary.category.edit"><![CDATA[Edit area of law]]></item>
+        <item name="wcf.lawLibrary.category.details"><![CDATA[Area details]]></item>
+        <item name="wcf.lawLibrary.category.name"><![CDATA[Name]]></item>
+        <item name="wcf.lawLibrary.category.description"><![CDATA[Description]]></item>
+        <item name="wcf.lawLibrary.category.numberBlock"><![CDATA[Number block]]></item>
+        <item name="wcf.lawLibrary.category.numberBlock.description"><![CDATA[Enter the number before “xx”: 1 yields 101–199, 12 yields 1201–1299. Each block must be unique. Changes automatically renumber the laws in this area; links remain stable.]]></item>
+        <item name="wcf.lawLibrary.category.range"><![CDATA[Number range]]></item>
+        <item name="wcf.lawLibrary.category.lawCount"><![CDATA[Laws]]></item>
+        <item name="wcf.lawLibrary.category.atEnd"><![CDATA[At the end of the classification]]></item>
+        <item name="wcf.lawLibrary.category.order.description"><![CDATA[Controls the classification order. The number blocks of other areas remain unchanged.]]></item>
+        <item name="wcf.lawLibrary.category.delete"><![CDATA[Delete area of law]]></item>
+        <item name="wcf.lawLibrary.category.delete.confirm"><![CDATA[Delete this area when submitting]]></item>
+        <item name="wcf.lawLibrary.category.delete.description"><![CDATA[Only empty areas can be deleted. Move their laws to another area first. At least one area must remain.]]></item>
+        <item name="wcf.lawLibrary.category.error.duplicateBase"><![CDATA[This number block is already in use. Choose an available block.]]></item>
+        <item name="wcf.lawLibrary.category.error.categoryNotEmpty"><![CDATA[This area still contains laws. Move them to another area first.]]></item>
+        <item name="wcf.lawLibrary.category.error.lastCategory"><![CDATA[The last area cannot be deleted.]]></item>
+        <item name="wcf.lawLibrary.category.error.categoryLimit"><![CDATA[A maximum of 99 areas is supported.]]></item>
+        <item name="wcf.lawLibrary.category.error.invalid"><![CDATA[Check the values and insertion position. The classification may have changed in the meantime.]]></item>
+        <item name="wcf.lawLibrary.manage"><![CDATA[Manage in the ACP]]></item>
+        <item name="wcf.lawLibrary.showLibrary"><![CDATA[View library]]></item>
+
+        <item name="wcf.lawLibrary.title"><![CDATA[Law library]]></item>
+        <item name="wcf.lawLibrary.systematic"><![CDATA[Classification]]></item>
+        <item name="wcf.lawLibrary.all"><![CDATA[All laws]]></item>
+        <item name="wcf.lawLibrary.recent"><![CDATA[Recently changed]]></item>
+        <item name="wcf.lawLibrary.bookmarks"><![CDATA[My bookmarks]]></item>
+        <item name="wcf.lawLibrary.bookmark.add"><![CDATA[Bookmark law]]></item>
+        <item name="wcf.lawLibrary.bookmark.remove"><![CDATA[Remove bookmark]]></item>
+        <item name="wcf.lawLibrary.add"><![CDATA[Add law]]></item>
+        <item name="wcf.lawLibrary.edit"><![CDATA[Edit law]]></item>
+        <item name="wcf.lawLibrary.details"><![CDATA[Law details]]></item>
+        <item name="wcf.lawLibrary.lawTitle"><![CDATA[Law title]]></item>
+        <item name="wcf.lawLibrary.abbreviation"><![CDATA[Abbreviation]]></item>
+        <item name="wcf.lawLibrary.date"><![CDATA[Effective date]]></item>
+        <item name="wcf.lawLibrary.updated"><![CDATA[Last updated]]></item>
+        <item name="wcf.lawLibrary.category"><![CDATA[Subject area]]></item>
+        <item name="wcf.lawLibrary.insertBefore"><![CDATA[Insert before]]></item>
+        <item name="wcf.lawLibrary.atEnd"><![CDATA[At the end of the subject area]]></item>
+        <item name="wcf.lawLibrary.numbering.description"><![CDATA[Numbers are calculated from the subject area and position. Inserting or moving a law renumbers subsequent laws while links remain unchanged. Each area supports up to 99 laws.]]></item>
+        <item name="wcf.lawLibrary.number"><![CDATA[Number]]></item>
+        <item name="wcf.lawLibrary.text"><![CDATA[Law text]]></item>
+        <item name="wcf.lawLibrary.status"><![CDATA[Status]]></item>
+        <item name="wcf.lawLibrary.status.all"><![CDATA[All statuses]]></item>
+        <item name="wcf.lawLibrary.status.active"><![CDATA[In force]]></item>
+        <item name="wcf.lawLibrary.status.announced"><![CDATA[Announced]]></item>
+        <item name="wcf.lawLibrary.status.repealed"><![CDATA[Repealed]]></item>
+        <item name="wcf.lawLibrary.search"><![CDATA[Search]]></item>
+        <item name="wcf.lawLibrary.search.placeholder"><![CDATA[Title, abbreviation, number or text]]></item>
+        <item name="wcf.lawLibrary.results"><![CDATA[Search results]]></item>
+        <item name="wcf.lawLibrary.empty"><![CDATA[No matching laws found.]]></item>
+        <item name="wcf.lawLibrary.back"><![CDATA[Back to overview]]></item>
+        <item name="wcf.lawLibrary.error.conflict"><![CDATA[Another editor has changed the collection. Your text remains in this form. Copy it and reload the page before saving.]]></item>
+        <item name="wcf.lawLibrary.error.invalid"><![CDATA[Check the insertion position and subject area. Each area supports 99 laws; the entire collection is limited to 12 MB.]]></item>
+    </category>
+    <category name="wcf.acp.menu">
+        <item name="wcf.acp.menu.link.lawLibrary"><![CDATA[Law library]]></item>
+        <item name="wcf.acp.menu.link.lawLibrary.categories"><![CDATA[Classification]]></item>
+        <item name="wcf.acp.menu.link.lawLibrary.laws"><![CDATA[Laws]]></item>
+    </category>
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.category.lawLibrary"><![CDATA[Law library]]></item>
+        <item name="wcf.acp.option.category.lawLibrary.general"><![CDATA[General]]></item>
+        <item name="wcf.acp.option.law_library_name"><![CDATA[Library name]]></item>
+        <item name="wcf.acp.option.law_library_name.description"><![CDATA[Custom display name, for example EulLex (up to 100 characters). Used in the library, main menu and ACP menu. Leave empty to keep the original name. Content and links are preserved.]]></item>
+    </category>
+</language>
